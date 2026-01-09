@@ -93,19 +93,23 @@ try {
 
 ## Example Response
 ```json
+
 {
-  "data": {
-    "type": "api_job_result",
-    "id": "job-id-here",
-    "attributes": {
-      "status": "success",
-      "type": "content_processing",
-      "result": {
-        "content": "Processed result content here..."
-      }
+    "data": {
+        "type": "api_job_result",
+        "id": "081d6ba5-329d-4723-b88f-a8c88bc3a9cb",
+        "attributes": {
+            "status": "success",
+            "type": "hr_job_description",
+            "result": {
+                "job_requirements": "- Minimum of 5 years of experience in software engineering\n- Bachelor's Degree in Computer Science or related field\n- Proficiency in PHP8, Laravel, and MySQL\n- Familiarity with AWS RDS, AWS Aurora, and GitFlow is a plus\n- Strong problem-solving skills and attention to detail\n- Excellent communication and teamwork abilities\n- C-class driving license",
+                "job_responsibilities": "- Develop, test, and maintain high-quality PHP applications\n- Collaborate with cross-functional teams to define and implement new features\n- Optimize application performance and scalability\n- Ensure code quality and maintainability through code reviews and best practices\n- Troubleshoot and resolve software defects and issues\n- Stay updated with the latest industry trends and technologies\n- Mentor and guide junior developers",
+                "job_short_description": "We are seeking a highly skilled Senior PHP Software Engineer to join our remote team in the United Kingdom. This full-time position requires a minimum of 5 years of experience and a Bachelor's Degree. The ideal candidate will have expertise in PHP8, Laravel, and MySQL, with additional skills in AWS RDS, AWS Aurora, and GitFlow being advantageous. Visa sponsorship is available."
+            }
+        }
     }
-  }
 }
+
 ```
 ---
 
